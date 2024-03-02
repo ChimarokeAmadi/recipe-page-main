@@ -1,0 +1,140 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-rasberry: hsl(332, 51%, 32%);
+    --Eggshell: hsl(14, 45%, 36%);
+    --rose-white: hsl(330, 100%, 98%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+@font-face {
+    font-family: 'outfit';
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'young-serif';
+    src: url(fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+    background-color: rgb(248, 237, 223);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-charcoal);
+    font-family: 'outfit';
+    font-weight: 400;
+}
+
+.full-Page {
+    width: 700px;
+    height: 1800px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 100px 0;
+    margin-top: 100px;
+}
+
+.omelette-Image-container {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.omelette-Image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.title {
+    font-family: 'young-serif';
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+}
+
+.title-description {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+div.preparations {
+    background-color: var(--rose-white);
+    padding: 10px;
+    padding-left: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.preparations-title {
+    color: var(--dark-rasberry);
+    font-size: 20px;
+}
+
+li {
+    line-height: 2;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: 'young-serif';
+    font-size: 30px;
+    color: var(--Eggshell);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+ul.ingredients {
+    line-height: 2;
+}
+
+hr {
+    margin: 20px 0px;
+    border: 1px solid rgb(245, 244, 244);
+}
+
+
+
+ol.instruction-list li {
+    padding-left: 0px;
+}
+
+ol.instruction-list li::marker {
+    color: var(--Eggshell);
+    font-weight: 900;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 300px;
+}
+
+.nutrient-amount{
+    color: var(--Eggshell);
+}
+
+.nutriton-table hr {
+    margin: 0;
+}
+
+.g-0 {
+
+}
