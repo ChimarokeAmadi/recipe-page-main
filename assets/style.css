@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -135,6 +141,3 @@ ol.instruction-list li::marker {
     margin: 0;
 }
 
-.g-0 {
-
-}
