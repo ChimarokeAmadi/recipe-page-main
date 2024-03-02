@@ -154,11 +154,11 @@ ol.instructions li::marker {
     display: flex;
     justify-content: space-between;
     padding-left: 40px;
-    padding-right: 300px;
+    padding-right: 220px;
 }
 
 .first-paragraph {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .nutrient-amount{
@@ -169,3 +169,15 @@ ol.instructions li::marker {
     margin: 0;
 }
 
+.nutrient, .nutrient-amount {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.g-0 {
+    margin-right: 10px;
+}
+
+.kcal-277 {
+    margin-right: -23px;
+}
