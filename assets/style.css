@@ -47,7 +47,7 @@ body {
     align-items: center;
     flex-direction: column;
     border-radius: 25px;
-    padding: 50px;
+    padding: 40px;
     margin: 100px 0;
     margin-top: 100px;
 }
@@ -86,11 +86,18 @@ div.preparations {
     padding-left: 30px;
     margin-top: 20px;
     border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.preparations li {
+    margin-left: 40px;
 }
 
 .preparations-title {
     color: var(--dark-rasberry);
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 li {
@@ -106,6 +113,13 @@ h2 {
     margin-bottom: 15px;
 }
 
+div.ingredients li{
+    margin-left: 35px;
+}
+
+div.instructions li {
+    margin-left: 20px;
+}
 ul.ingredients {
     line-height: 2;
 }
@@ -117,11 +131,21 @@ hr {
 
 
 
-ol.instruction-list li {
-    padding-left: 0px;
+ul.preparations li::marker {
+    color: var(--dark-rasberry);
+    font-size: 12px;
 }
 
-ol.instruction-list li::marker {
+ul.ingredients li::marker {
+    color: var(--Eggshell);
+    font-size: 12px;
+}
+
+ol.instructions li {
+    padding-left: 10px;
+}
+
+ol.instructions li::marker {
     color: var(--Eggshell);
     font-weight: 900;
 }
@@ -131,6 +155,10 @@ ol.instruction-list li::marker {
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 300px;
+}
+
+.first-paragraph {
+    margin-bottom: 30px;
 }
 
 .nutrient-amount{
